@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>lucky birthday</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>How lucky your birthday Is?!</header>
+      <form id="form" aria-autocomplete="off">
+        <div class="form-group">
+          <label>Enter your date of birth</label>
+          <div>
+            <input type="date" id='dob'/>  
+          </div>
+        </div>
+        <div class="form-group">
+            <label>Enter your lucky number</label>
+            <div>
+              <input type="number" id='lnum'/>  
+            </div>
+          </div>
+        <div class="form-group btns">
+          <button id='show-btn' type="button">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+        <div class="form-group"id='msgContainer'>
+            <div>
+              <p type="text" id="result" style="margin : -2em 0 0 0 ;"></p>
+            </div>
+          </div>
+      </form>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
